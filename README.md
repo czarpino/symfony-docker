@@ -10,6 +10,14 @@ The leading PHP framework to create websites and web applications. Built on top 
 
 # How to use this image.
 
+Get image with a docker pull
+
+```
+docker pull czarpino/symfony
+```
+
+Alternatively, you can use this image for your docker-compose file:
+
 ```
 version: '3'
 services:
