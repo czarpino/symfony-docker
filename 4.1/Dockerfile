@@ -16,5 +16,5 @@ RUN set -xe \
     && apk del .build-deps \
     && rm -rf /tmp/* /usr/local/lib/php/doc/* /var/cache/apk/*
 
-RUN docker-php-ext-install opcache
+RUN docker-php-ext-install opcache pdo_mysql
 COPY ./php.ini /usr/local/etc/php/php.ini
